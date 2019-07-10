@@ -17,6 +17,5 @@ export const fetchPokemonAPI = (): ThunkAction<
 
   //Create Pokemon array
   const pokemonArray: Pokemon[] = Array.of(...asyncResp);
-  debugger;
   dispatch(fetchPokemon(pokemonArray));
 };

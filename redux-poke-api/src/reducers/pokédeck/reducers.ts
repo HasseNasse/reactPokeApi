@@ -31,7 +31,6 @@ export function pokéDeckReducer(
       };
     case FETCH_POKEMON:
       console.log("Fetched Pokemons");
-      debugger;
       return { ...state, pokéIndex: action.payload };
     default:
       return state;
